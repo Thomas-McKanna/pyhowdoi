@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyhowdoi"
+version = "1.0.0"
+description = "Use ChatGPT for quick command-line advice"
+authors = ["Thomas McKanna <thomasmckanna@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dependency = "^0.0.3"
+simplechatgpt = "^1.0"
+
+[tool.poetry.scripts]
+howdoi = "pyhowdoi.main:howdoi"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
