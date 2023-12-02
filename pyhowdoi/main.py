@@ -17,7 +17,7 @@ def howdoi():
         print("Please set the environment variable OPENAI_API_KEY")
         exit()
 
-    model = environ.get("OPENAI_CHAT_MODEL", "gpt-3.5-turbo")
+    model = environ.get("OPENAI_CHAT_MODEL", "gpt-4-1106-preview")
 
     chat = Chat(api_key, model=model, chatbot_description=CHATBOT_DESCRIPTION)
 
