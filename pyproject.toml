@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyhowdoi"
-version = "1.1.0"
+version = "1.2.1"
 description = "Use ChatGPT for quick command-line advice"
 authors = ["Thomas McKanna <thomasmckanna@proton.me>"]
 readme = "README.md"
@@ -10,7 +10,7 @@ homepage = "https://github.com/Thomas-McKanna/pyhowdoi"
 [tool.poetry.dependencies]
 python = "^3.10"
 dependency = "^0.0.3"
-simplechatgpt = "^1.0"
+simplechatgpt = "^1.2.0"
 
 [tool.poetry.scripts]
 howdoi = "pyhowdoi.main:howdoi"
